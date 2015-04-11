@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ProjetFlickrTreille</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    <string name="search_title">Rechercher</string>
+    <string name="search_hint">Rechercher quelque chose</string>
+    <string name="double_back_toast">Appuyer de nouveau pour quitter</string>
+    <string name="bigger_title">BIG</string>
+    <string name="no_result">Aucun résultat pour cette recherche</string>
+    <string name="error_result">Erreur : résultat de la requête incorrect.</string>
+    <string name="navigation_drawer_settings">Préférences</string>
+    <string name="settings_tags_or_text">Inclur le titre et la description en plus des tags</string>
+    <string name="settings_hd_image">Afficher les images hd si possible</string>
+    <string name="settings_auto_login">Connexion automatique</string>
+
+</resources>

@@ -1,0 +1,32 @@
+<com.nirhart.parallaxscroll.views.ParallaxScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/navigation_drawer_scroll_view"
+    app:parallax_factor="1.5"
+    tools:context=".NavigationDrawerFragment"
+    android:background="@color/app_background"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <FrameLayout
+            android:id="@+id/login_frame"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"/>
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:name="fr.projetflickrtreille.fragments.MenuFragment"
+            tools:layout="@layout/menu_fragment"
+            android:id="@+id/menu_fragment" />
+            <!--android:background="@drawable/navigation_drawer_item"-->
+        </LinearLayout>
+
+
+
+</com.nirhart.parallaxscroll.views.ParallaxScrollView>

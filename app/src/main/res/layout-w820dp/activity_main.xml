@@ -1,0 +1,37 @@
+<!-- A DrawerLayout is intended to be used as the top-level content view using match_parent for both width and height to consume the full space available. -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relative_land_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background"
+    tools:context=".MainActivity">
+
+    <!-- As the main content view, the view below consumes the entire
+         space available using match_parent in both dimensions. -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/primary_material_dark"/>
+
+        <fragment android:id="@+id/menu_fragment"
+            android:layout_width="@dimen/navigation_drawer_width" android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:name="fr.projetflickrtreille.fragments.MenuFragment"
+            tools:layout="@layout/menu_fragment" />
+
+        <FrameLayout android:id="@+id/container" android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/content_background"
+            android:layout_marginLeft="@dimen/content_margin_left"
+            android:layout_marginStart="@dimen/content_margin_left"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

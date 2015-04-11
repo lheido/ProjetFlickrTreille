@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#ff171717</color>
+    <color name="action_bar_text_color">#ededed</color>
+    <color name="content_background">#ffc7c7c7</color>
+    <color name="app_background">#ffadadad</color>
+    <color name="navigation_drawer_text">#ff2a2a2a</color>
+    <color name="navigation_drawer_separator">#ff2a2a2a</color>
+    <color name="action_button">@color/button_material_dark</color>
+
+</resources>
